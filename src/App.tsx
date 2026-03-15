@@ -37,7 +37,7 @@ const MainContent = () => {
 };
 
 
-const App = ({ instance }) => {
+const App = ({ instance }: any) => {
     return (
         <MsalProvider instance={instance}>
             <PageLayout>

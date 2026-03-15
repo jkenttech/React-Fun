@@ -1,3 +1,4 @@
+import { BrowserRouter } from 'react-router';
 import { AuthenticatedTemplate, UnauthenticatedTemplate, useMsal } from '@azure/msal-react';
 import { Navbar, Button } from 'react-bootstrap';
 import { loginRequest } from '../authConfig';
